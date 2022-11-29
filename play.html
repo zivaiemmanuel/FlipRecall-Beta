@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript" src="https://getbootstrap.com/dist/js/bootstrap.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://getbootstrap.com/dist/css/bootstrap.css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript" src="https://getbootstrap.com/dist/js/bootstrap.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://getbootstrap.com/dist/css/bootstrap.css"/> -->
+    <link rel="stylesheet" href="playstyles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- <h1>Flip Recall</h1> -->
+        <div class="overlay-text visible">
+            Click To Start
+        </div>
+        <div id="game-over-text" class="overlay-text">
+            Game Over
+            <span class="overlay-text-small">Click To Restart</span>
+        </div>
+        <div id="victory-text" class="overlay-text">
+            VICTORY
+            <span class="overlay-text-small">Next Level -></span></span>
+        </div>
+        <div class="grid">
+            <div class="game-info-container">
+                <div class="game-info">
+                    Time: <span id="time-elapsed">0</span>s
+                </div>
+                <div class="game-info">
+                    Flips: <span id="flips">0</span>
+                </div>
+            </div>
+            <ul class="deck">
+            
+                <li class="card" tabindex="0">
+                <div class="card-back card-face">
+                    <img class="the-back" src="images/back.png">
+                </div>
+                <div class="card-front card-face">
+                    <img class="the-front" src="images/1.png">
+                </div>
+                </li>
+            
+                <li class="card" tabindex="0">
+                <div class="card-back card-face">
+                    <img class="the-back" src="images/back.png">
+                </div>
+                <div class="card-front card-face">
+                    <img class="the-front" src="images/2.png">
+                </div>
+                </li>
+            
+                <li class="card" tabindex="0">
+                <div class="card-back card-face">
+                    <img class="the-back" src="images/back.png">
+                </div>
+                <div class="card-front card-face">
+                    <img class="the-front" src="images/3.png">
+                </div>
+                </li>
+            
+                <li class="card" tabindex="0">
+                <div class="card-back card-face">
+                    <img class="the-back" src="images/back.png">
+                </div>
+                <div class="card-front card-face">
+                    <img class="the-front" src="images/4.png">
+                </div>
+                </li>
+            
+                <li class="card" tabindex="0">
+                <div class="card-back card-face">
+                    <img class="the-back" src="images/back.png">
+                </div>
+                <div class="card-front card-face">
+                    <img class="the-front" src="images/4.png">
+                </div>
+                </li>
+                
+                <li class="card" tabindex="0">
+                <div class="card-back card-face">
+                    <img class="the-back" src="images/back.png">
+                </div>
+                <div class="card-front card-face">
+                    <img class="the-front" src="images/5.png">
+                </div>
+                </li>
+            
+                <li class="card" tabindex="0">
+                <div class="card-back card-face">
+                    <img class="the-back" src="images/back.png">
+                </div>
+                <div class="card-front card-face">
+                    <img class="the-front" src="images/6.png">
+                </div>
+                </li>
+            
+                <li class="card" tabindex="0">
+                <div class="card-back card-face">
+                    <img class="the-back" src="images/back.png">
+                </div>
+                <div class="card-front card-face">
+                    <img class="the-front" src="images/5.png">
+                </div>
+                </li>
+            
+                <li class="card" tabindex="0">
+                <div class="card-back card-face">
+                    <img class="the-back" src="images/back.png">
+                </div>
+                <div class="card-front card-face">
+                    <img class="the-front" src="images/1.png">
+                </div>
+                </li>
+            
+                <li class="card" tabindex="0">
+                <div class="card-back card-face">
+                    <img class="the-back" src="images/back.png">
+                </div>
+                <div class="card-front card-face">
+                    <img class="the-front" src="images/3.png">
+                </div>
+                </li>
+            
+                <li class="card" tabindex="0">
+                <div class="card-back card-face">
+                    <img class="the-back" src="images/back.png">
+                </div>
+                <div class="card-front card-face">
+                    <img class="the-front" src="images/6.png">
+                </div>
+                </li>
+            
+                <li class="card" tabindex="0">
+                <div class="card-back card-face">
+                    <img class="the-back" src="images/back.png">
+                </div>
+                <div class="card-front card-face">
+                    <img class="the-front" src="images/2.png">
+                </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js" async></script>
+</body>
+</html>
